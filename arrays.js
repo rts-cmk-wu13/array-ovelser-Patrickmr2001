@@ -6,4 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // --- Løs opgaverne herunder --- 
 
+
+    // Opgave 1: Lav en ny array med alle tal fra numbersArray, som er større end 20
+
+    let newNumbers = numbersArray.filter(function(number) {
+        return number > 20
+    })
+    console.log("Opgave 1", newNumbers)
+
+
+
 }) // ends DOMContentLoaded
