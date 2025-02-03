@@ -41,6 +41,10 @@ document.addEventListener("DOMContentLoaded", function() {
         return number * 3
     })
     console.log(newNumbersArray)
+    
+    //opgave 6 Udskriv alle hundene i dogsArray i én lang streng. (Sådan her: BarneyMollyBaxter...)
+    let dogsString = dogsArray.join("")
+    console.log(dogsString)
 
 
 
