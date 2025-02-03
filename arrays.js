@@ -28,6 +28,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let baxter = dogsArray.includes("Baxter")
     console.log(baxter)
 
+    //opgave 4 a Check om der i catsArray er en kat som hedder "Bagheera".
+    let bagheera = catsArray.includes("Bagheera")
+    console.log(bagheera)
+
+    //opgave 4 b Check om der i catsArray er en kat som hedder "Salem".
+    let salem = catsArray.includes("Salem")
+    console.log(salem)
+
 
 
 
