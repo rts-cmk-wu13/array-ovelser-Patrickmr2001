@@ -36,6 +36,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let salem = catsArray.includes("Salem")
     console.log(salem)
 
+    //opgave 5 Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
+    let newNumbersArray = numbersArray.map(function(number) {
+        return number * 3
+    })
+    console.log(newNumbersArray)
+
+
+
 
 
 
