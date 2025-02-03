@@ -20,6 +20,16 @@ document.addEventListener("DOMContentLoaded", function() {
     console.log(catsArray)
     
 
+    //opgave 3 a Check om der i dogsArray er en hund som hedder "Trixie".
+    let trixie = dogsArray.includes("Trixie")
+    console.log(trixie)
+
+    //opgave 3 a Check om der i dogsArray er en hund som hedder "Baxter".
+    let baxter = dogsArray.includes("Baxter")
+    console.log(baxter)
+
+
+
 
 
 
