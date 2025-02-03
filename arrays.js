@@ -56,7 +56,11 @@ document.addEventListener("DOMContentLoaded", function () {
     let pollyIndex = dogsArray.indexOf("Polly")
     console.log("Opgave 8",pollyIndex)
 
-    // ekstra opgave 
+    // ekstra opgave Udskriv summen af alle tallene i numbersArray i konsollen:
+    let sum = numbersArray.reduce(function (acc, number) {
+        return acc + number
+    }, 0)
+    console.log("Ekstra opgave",sum)
 
 
 
