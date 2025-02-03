@@ -46,6 +46,14 @@ document.addEventListener("DOMContentLoaded", function() {
     let dogsString = dogsArray.join("")
     console.log(dogsString)
 
+    //opgave 7 a Find ud af hvilket index "Mango" har i fruitsArray.
+    let mangoIndex = fruitsArray.indexOf("Mango")
+    console.log(mangoIndex)
+
+    //opgave 7 b Find ud af hvilket index "Blåbær" har i fruitsArray.
+    let BlåbærIndex = fruitsArray.indexOf("Blåbær")
+    console.log(BlåbærIndex)
+
 
 
 
